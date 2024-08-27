@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.7">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="954" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="477" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,16 +76,19 @@
             <mxPoint x="660" y="268" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="99ZYGqxpfw9Q4ZG0pec9-21" value="Забрать из очереди new" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="99ZYGqxpfw9Q4ZG0pec9-21" value="" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="680" y="290" as="sourcePoint" />
-            <mxPoint x="800" y="290" as="targetPoint" />
+            <mxPoint x="680" y="300" as="sourcePoint" />
+            <mxPoint x="800" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="99ZYGqxpfw9Q4ZG0pec9-22" value="Забрать из очереди old" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;curved=0;rounded=0;dashed=1;" edge="1" parent="1" target="99ZYGqxpfw9Q4ZG0pec9-13">
+        <mxCell id="99ZYGqxpfw9Q4ZG0pec9-22" value="" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;curved=0;rounded=0;dashed=1;" edge="1" parent="1" source="99ZYGqxpfw9Q4ZG0pec9-14" target="99ZYGqxpfw9Q4ZG0pec9-13">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="680" y="340" as="sourcePoint" />
             <mxPoint x="800" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="350" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="99ZYGqxpfw9Q4ZG0pec9-23" value="" style="html=1;verticalAlign=bottom;startArrow=classic;startFill=1;endArrow=none;startSize=8;curved=0;rounded=0;endFill=0;dashed=1;" edge="1" parent="1">
@@ -98,6 +101,36 @@
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="380" y="280" as="sourcePoint" />
             <mxPoint x="660" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99ZYGqxpfw9Q4ZG0pec9-25" value="" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="800" y="280" as="sourcePoint" />
+            <mxPoint x="680" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99ZYGqxpfw9Q4ZG0pec9-27" value="Забрать из очереди new" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="99ZYGqxpfw9Q4ZG0pec9-25">
+          <mxGeometry x="0.2833" y="-2" relative="1" as="geometry">
+            <mxPoint x="17" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99ZYGqxpfw9Q4ZG0pec9-28" value="" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" source="99ZYGqxpfw9Q4ZG0pec9-13">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="790" y="340" as="sourcePoint" />
+            <mxPoint x="670" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="340" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99ZYGqxpfw9Q4ZG0pec9-30" value="Забрать из очереди old" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="99ZYGqxpfw9Q4ZG0pec9-28">
+          <mxGeometry x="0.321" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
